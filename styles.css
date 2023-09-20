@@ -1,3 +1,61 @@
 html {
     font-family: 'Noto Color Emoji', sans-serif;
+    color: #828994;
+    font-size: 24px;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+
+#logo {
+    display: flex;
+    height: 40px;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.navigation-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.25rem;
+    width: 800px;
+    margin-right: 20px;
+    list-style-type:none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #828994;
+    font-family: 'Lexend', sans-serif;
+}
+
+.about-me-container {
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;;
+    
+}
+
+.portrait {
+    width: 500px;
+    float: right;
+
+}
+
+main { 
+    margin: 0 auto;
+    width: 80%;
+
 }
