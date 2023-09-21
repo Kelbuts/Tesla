@@ -29,13 +29,24 @@ nav {
 
 .navigation-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 1.25rem;
     width: 800px;
-    margin-right: 20px;
     list-style-type:none;
     padding: 0;
+    
+}
+
+button {
+    display: flex;
+    background-color: white;
+    border: 0;
+    color: #828994;
+}
+
+.fa-circle-half-stroke {
+    font-size: 32px;
 }
 
 a {
@@ -103,4 +114,29 @@ footer {
     background-color: #828994;
     color: white;
     
+}
+
+html.dark {
+    color: white;
+    background-color: #828994;
+    
+}
+
+.dark a {
+    color: white;
+}
+
+.dark #others-container li {
+    background-color: white;
+    color: #828994;
+}
+
+.dark footer {
+    background-color: white;
+    color: #828994;
+}
+
+.dark button {
+    background-color: #828994;
+    color: white;
 }
