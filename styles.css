@@ -43,6 +43,7 @@ button {
     background-color: white;
     border: 0;
     color: #828994;
+    cursor: pointer;
 }
 
 .fa-circle-half-stroke {

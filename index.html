@@ -118,3 +118,23 @@
   <footer> Made in <span class="flag">🇲🇩 </span>Moldova</footer>
 </body>
 <script src="main.js"></script>
+<script>
+  const timeContainer = document.getElementById("time-container");
+  const FALL_DAY = "1908-06-30";
+  const FALL_DAY_DATE = new Date(FALL_DAY);
+  const intlNumberFormatter = new Intl.NumberFormat("en-US");
+  
+  function tick() {
+    const now = new Date();
+    const difference = Math.floor(
+      (now.getTime() - FALL_DAY_DATE.getTime()) / 1000
+    );
+
+    timeContainer.innerText = intlNumberFormatter.format(difference);
+
+  }
+
+  setInterval(tick, 1000);
+
+  tick();
+</script>
